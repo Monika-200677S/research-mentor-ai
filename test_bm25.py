@@ -29,7 +29,9 @@ def main():
 
             print()
             print(f"Rank: {paper['rank']}")
-            print(f"Score: {paper['bm25_score']}")
+            print(f"Final BM25 Score: {paper['bm25_score']}")
+            print(f"Title Score: {paper['title_bm25_score']}")
+            print(f"Abstract Score: {paper['abstract_bm25_score']}")
             print(f"Title: {paper['title']}")
             print(f"Year: {paper['year']}")
             print("-" * 80)
